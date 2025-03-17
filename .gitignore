@@ -37,7 +37,7 @@ ENV/
 env/
 .vagrant/
 
-# Testing
+# Testing (Python/Django)
 htmlcov/
 .coverage
 .coverage.*
@@ -58,9 +58,27 @@ coverage.xml
 .env.test.local
 .env.production.local
 
-# Dependency management
+# Dependency management (Python)
 Pipfile.lock
 pip-log.txt
+
+# React/Node.js specific
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/build/
+/dist/
+*.env
+*.env.development
+*.env.production
+*.env.test
+*.tsbuildinfo
+*.map
+
+# React testing
+/coverage/
 
 # Miscellaneous
 .DS_Store
